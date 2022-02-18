@@ -147,17 +147,17 @@ module.exports = function (plop) {
     actions: [
       {
         type: 'add',
-        path: 'src/components/organism/{{toPathName name}}/{{toPathName name}}.component.js',
+        path: 'src/components/organisms/{{toPathName name}}/{{toPathName name}}.component.js',
         templateFile: 'plop-templates/atoms.component.hbs',
       },
       {
         type: 'add',
-        path: 'src/components/organism/{{toPathName name}}/{{toPathName name}}.style.js',
+        path: 'src/components/organisms/{{toPathName name}}/{{toPathName name}}.style.js',
         templateFile: 'plop-templates/style.hbs',
       },
       {
         type: 'append',
-        path: 'src/components/organism/index.js',
+        path: 'src/components/organisms/index.js',
         templateFile: 'plop-templates/import.hbs',
       },
     ], // array of actions
