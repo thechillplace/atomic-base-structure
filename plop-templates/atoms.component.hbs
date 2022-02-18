@@ -1,0 +1,13 @@
+import React from 'react';
+import {View, Text} from 'react-native';
+import styles from './{{toPathName name}}.style.js';
+
+const {{ name }} = ({label = ''}) => {
+  return (
+    <View style={styles.container}>
+      <Text>{{name}}</Text>
+    </View>
+  );
+};
+
+export default {{name}};
