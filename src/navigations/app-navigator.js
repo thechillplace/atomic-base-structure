@@ -1,5 +1,5 @@
 import React from 'react';
-import {Home, About , Contact /* IMPORT SCREEN HERE */} from '_scenes';
+import {Home, About, Contact /* IMPORT SCREEN HERE */} from '_scenes';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator();
