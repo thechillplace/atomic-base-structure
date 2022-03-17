@@ -145,7 +145,6 @@
 				D1370705D351479B6AE188F5 /* Pods-AtomicBaseStructure-AtomicBaseStructureTests.debug.xcconfig */,
 				E7B66B70D47BCD150F9019C8 /* Pods-AtomicBaseStructure-AtomicBaseStructureTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -485,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KR29A7NY8;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AtomicBaseStructure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KR29A7NY8;
 				INFOPLIST_FILE = AtomicBaseStructure/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -12,7 +12,7 @@ export default function Login() {
     if (isActive) {
       ref?.BottomSheet?.scrollTo(0);
     } else {
-      ref?.BottomSheet?.scrollTo(-350);
+      ref?.BottomSheet?.scrollTo(-400);
     }
   }, []);
 
@@ -22,8 +22,8 @@ export default function Login() {
         <TouchableOpacity style={styles.button} onPress={onPress} />
         <BottomSheet
           ref={node => (ref.BottomSheet = node)}
-          positions={[0, 350, 600, WINDOW_HEIGHT - 50]}>
-          <View style={{flex: 1, backgroundColor: 'orange'}} />
+          positions={[0, 400, WINDOW_HEIGHT - 50]}>
+          <View style={{flex: 1}} />
         </BottomSheet>
       </View>
     </GestureHandlerRootView>
@@ -33,7 +33,7 @@ export default function Login() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#111',
+    backgroundColor: 'white',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     height: 50,
     borderRadius: 25,
     aspectRatio: 1,
-    backgroundColor: 'white',
+    backgroundColor: 'tomato',
     opacity: 0.6,
   },
 });
