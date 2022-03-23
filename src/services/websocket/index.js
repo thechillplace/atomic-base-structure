@@ -3,7 +3,7 @@ import useWebSocket, {ReadyState} from 'react-use-websocket';
 
 function useSocket() {
   const {sendMessage, lastMessage, readyState} = useWebSocket(
-    'wss://echo.websocket.events',
+    'wss://demo.piesocket.com/v3/channel_1?api_key=oCdCMcMPQpbvNjUIzqtvF1d2X2okWpDQj4AwARJuAgtjhzKxVEjQU6IdCjwm&notify_self',
     {
       onOpen: () => console.log('opened'),
       //Will attempt to reconnect on all close events, such as server shutting down
