@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {View, Text, TouchableOpacity} from 'react-native';
 import styles from './home.style.js';
-import {useSocket} from '../../services/websocket';
+import {useSocket} from '../../services/ws';
 import PubSub from 'pubsub-js';
 import PUBSUB_EVENT from '../../pubsub/event-type';
 
